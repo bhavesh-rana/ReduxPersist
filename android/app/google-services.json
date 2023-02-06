@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "683599286934",
+    "project_id": "remoteconfig-9ac4c",
+    "storage_bucket": "remoteconfig-9ac4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:683599286934:android:5fdce5fc79e48ff49ee8b7",
+        "android_client_info": {
+          "package_name": "com.reduxdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "683599286934-8j717bjq24ihkkgg3oamn86a4kmo6lkm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaX0PiWJjA9eQK6KT2rp3zksilpknnINc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "683599286934-8j717bjq24ihkkgg3oamn86a4kmo6lkm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
