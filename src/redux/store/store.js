@@ -10,7 +10,7 @@ const persistConfig = {
 };
 const persistedReducer = persistReducer(persistConfig, appReducer);
 
-export const store = createStore(persistedReducer, {}, applyMiddleware(thunk));
+export const store = createStore(appReducer, {}, applyMiddleware(thunk));
+//export const store = createStore(persistedReducer, {}, applyMiddleware(thunk));
 export const persistor = persistStore(store);
 
-//export const store = createStore(appReducer, {}, applyMiddleware(thunk));

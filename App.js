@@ -6,13 +6,13 @@ import {PersistGate} from 'redux-persist/integration/react';
 import {CounterContext} from './src/hooks/Usercontext';
 const App = () => {
   return (
-    // <Provider store={store}>
-    //   <PersistGate persistor={persistor}>
+    <Provider store={store}>
+    {/* //   <PersistGate persistor={persistor}> */}
 
       <MainNavigation />
  
-    //   </PersistGate>
-    // </Provider>
+    {/* //   </PersistGate> */}
+     </Provider>
   );
 };
 
