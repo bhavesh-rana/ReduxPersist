@@ -7,18 +7,26 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import HomeScreen from '../screen/homeScreen';
 import InfoScreen from '../screen/infoScreen';
 import Globalapi from '../screen/Globalapi';
+import Graphql from '../screen/Graphql';
+
+ 
 const Stack = createNativeStackNavigator();
+
+ 
 
 // create a component
 const MainNavigation = () => {
   return (
-    <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen name='Globalapi' component={Globalapi}/>
-        <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="InfoScreen" component={InfoScreen} />
-      </Stack.Navigator>
-    </NavigationContainer>
+     
+      <NavigationContainer>
+        <Stack.Navigator>
+          <Stack.Screen name="Graphql" component={Graphql} />
+          <Stack.Screen name="Globalapi" component={Globalapi} />
+          <Stack.Screen name="Home" component={HomeScreen} />
+          <Stack.Screen name="InfoScreen" component={InfoScreen} />
+        </Stack.Navigator>
+      </NavigationContainer>
+     
   );
 };
 

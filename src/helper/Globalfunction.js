@@ -7,10 +7,8 @@
 
 import axios from 'axios';
 import {createNavigationContainerRef} from '@react-navigation/native';
-
-import {routeNames} from './screenNameConst';
-import {removeAsyncStorage, resetStack} from './globalFunction';
-
+ 
+ 
 export const navigationRef = createNavigationContainerRef();
 
 export const makeAPIRequest = ({method, url, data, headers, params}) =>
