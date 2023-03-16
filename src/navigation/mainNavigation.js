@@ -8,6 +8,7 @@ import HomeScreen from '../screen/homeScreen';
 import InfoScreen from '../screen/infoScreen';
 import Globalapi from '../screen/Globalapi';
 import Graphql from '../screen/Graphql';
+import Chatscreens from '../screen/Task/Chatscreens';
 
  
 const Stack = createNativeStackNavigator();
@@ -19,7 +20,8 @@ const MainNavigation = () => {
   return (
      
       <NavigationContainer>
-        <Stack.Navigator>
+        <Stack.Navigator screenOptions={{headerShown:false}}>
+        <Stack.Screen name="Chatscreens" component={Chatscreens} />
           <Stack.Screen name="Graphql" component={Graphql} />
           <Stack.Screen name="Globalapi" component={Globalapi} />
           <Stack.Screen name="Home" component={HomeScreen} />
